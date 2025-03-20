@@ -13,3 +13,5 @@ Using the digitized fracture traces (polyline shapefile) and the interpretation 
 - To account for “far out” data, that are not included in the IQR, we added the range between the whiskers calculated as the difference between the upper whisker length (Q3 +1.5IQR) and the lower whisker length (Q1 - 1.5IQR).
 
 - REA correspond to a plateau in the parameter value variation.
+
+Dependencies: Fracability (https://github.com/gecos-lab/FracAbility)
