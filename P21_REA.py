@@ -100,8 +100,8 @@ def centers(start_point: np.ndarray, stop_point: np.ndarray, r: float, n_sides: 
 #                 j_resolution=y_res)
 
 
-boundary = gpd.read_file("Interpretation-boundary.shp")
-fractures = gpd.read_file("FN_set_1.shp")
+boundary = gpd.read_file("data/Interpretation-boundary.shp")
+fractures = gpd.read_file("data/FN_set_1.shp")
 
 
 # boundary.plot()
