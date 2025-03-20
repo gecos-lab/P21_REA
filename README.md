@@ -4,7 +4,7 @@ Due to the heterogeneous distribution of fractures in natural outcrops, the char
 
 Using the digitized fracture traces (polyline shapefile) and the interpretation boundary (polygon shapefile), this code calculates the P21 parameter and determines the REA through the following steps:
 
-- Several hexagonal grids are distributed across the outcrop surface, with side lengths ranging from 1 m to 26 m, increasing in 1-meter steps. Only whole hexagons are considered.
+- Several hexagonal grids are distributed across the outcrop surface, with side lengths ranging from 1 m to 26 m (depend on the outcrop size), increasing in 1-meter steps. Only whole hexagons are considered.
 
 - Tukey's boxplot method (1977) is used to analyze the distribution of P21 values at different scan area sizes.
 
